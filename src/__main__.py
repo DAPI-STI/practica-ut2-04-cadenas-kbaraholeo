@@ -19,3 +19,5 @@ print(replace_domain("kbaraholeo@educacion.navarra.es"))  # "user@ceu.es"
 print(euros_cents("67,89"))   # (67, 89),
 print(euros_cents("123.45"))  # (123, 45)
 print(parse_date("01/01/2020"))  # (1, 1, 2020)
+print(split_products("pan, leche, huevos"))  # ['pan', 'leche', 'huevos']
+print(format_product("Manzanas", 1.5, 20))
