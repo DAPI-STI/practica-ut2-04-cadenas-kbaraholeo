@@ -20,4 +20,3 @@ def replace_domain(email: str, new_domain: str = "ceu.es") -> str:
     #parts[0].append('ceu.es')
     # TODO: separa con split("@"), valida y construye la nueva dirección
     raise NotImplementedError("Implementa replace_domain(email, new_domain)")
-print(replace_domain("kbaraholeo@educacion.navarra.es"))  # "user@ceu.es"  

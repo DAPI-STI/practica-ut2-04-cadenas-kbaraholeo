@@ -25,4 +25,3 @@ def emphasize_vowel(frase: str, vocal: str) -> str:
         else:
             r += char  #si no coincide, añade el carácter original
     return r  #devuelve la cadena resultante    
-print(emphasize_vowel("anita lava la tina","a"))  # "hOla mundO"

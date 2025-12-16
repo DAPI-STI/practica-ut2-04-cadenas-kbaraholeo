@@ -24,4 +24,3 @@ def phone_core(number: str) -> str:
 
     # TODO: usa .strip(), .split("-") y validaciones con .isdigit() y startswith("+")
     raise NotImplementedError("Implementa phone_core(number)")
-print(phone_core("+34-913724710-56"))  # "913724710"

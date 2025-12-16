@@ -25,5 +25,3 @@ def euros_cents(price_str: str) -> tuple[int, int]:
     return  int(c[0]), int(c[1])
     # TODO: sustituye coma por punto, separa, valida y convierte a enteros
     raise NotImplementedError("Implementa euros_cents(price_str)")
-print(euros_cents("67,89"))   # (67, 89),
-print(euros_cents("123.45"))  # (123, 45)

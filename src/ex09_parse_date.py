@@ -36,4 +36,3 @@ def parse_date(date_str: str) -> tuple[int, int, int]:
     return (day, month, year)
 
     
-print(parse_date("01/01/2020"))  # (1, 1, 2020)

@@ -12,4 +12,3 @@ def name_upper_and_length(name: str) -> tuple[str, int]:
     # TODO: pasa el nombre a mayúsculas y cuenta las letras sin espacios
     return(name_upper, length)
     raise NotImplementedError("Implementa name_upper_and_length(name)")
-print(name_upper_and_length('Juan Perez Gomez'))  # ('JUAN PÉREZ GÓMEZ', 13)

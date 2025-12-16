@@ -8,4 +8,3 @@ def reverse_phrase(s: str) -> str:
     return f #º Retorna la frase invertida
     # TODO: usa slicing con paso negativo: s[::-1]
     raise NotImplementedError("Implementa reverse_phrase(s)")
-print(reverse_phrase("Hola mundo"))  # "odnum aloH"
